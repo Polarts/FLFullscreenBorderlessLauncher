@@ -146,6 +146,7 @@ namespace FLBorderless
 
                     // Should detect when the process exits. Doesn't work with FL.
                     // TODO: Find another way!
+                    // Try: https://stackoverflow.com/questions/40241044/detect-when-a-specific-window-in-another-process-opens-or-closes
                     _childp.Exited += OnChildProcessExited;
 
                     // Get the main handle
