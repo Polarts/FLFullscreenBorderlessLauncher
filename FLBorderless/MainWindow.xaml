@@ -1,0 +1,12 @@
+﻿<Window x:Class="FLBorderless.MainWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:local="clr-namespace:FLBorderless"
+        Title="Test Wpf App Container"
+        WindowState="Maximized"
+        WindowStyle="None">
+    <Grid>
+        <local:AppControl x:Name="appControl" 
+                          ChildProcessExited="appControl_ChildProcessExited"/>
+    </Grid>
+</Window>
